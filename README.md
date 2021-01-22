@@ -51,7 +51,7 @@ Esse projeto é um teste front-end da Corebiz.
 </p>
 <br>
 <p align="center">
-  <img alt="GoBeyond-mobile" src="src/assets/images/desktop-mobile.png" width="100%">
+  <img alt="GoBeyond-mobile" src="src/assets/images/mobile.png" width="100%">
 </p>
 <br>
 
