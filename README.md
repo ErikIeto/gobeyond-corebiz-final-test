@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="GoBeyond-Corebiz" title="Corebiz" src="assets/images/corebizgo.png" width="30%" />
+    <img alt="GoBeyond-Corebiz" title="Corebiz" src="src/assets/images/corebizgo.png" width="30%" />
 </h1>
 
 <p align="center">
@@ -43,15 +43,15 @@ Esse projeto é um teste front-end da Corebiz.
 ##  Layout
 
 <p align="center">
-  <img alt="GoBeyond-desktop-mobile" src="assets/images/desktop-mobile.png" width="100%">
+  <img alt="GoBeyond-desktop-mobile" src="src/assets/images/desktop-mobile.png" width="100%">
 </p>
 <br>
 <p align="center">
-  <img alt="GoBeyond-desktop" src="assets/images/desktop.png" width="100%">
+  <img alt="GoBeyond-desktop" src="src/assets/images/desktop.png" width="100%">
 </p>
 <br>
 <p align="center">
-  <img alt="GoBeyond-mobile" src="assets/images/desktop-mobile.png" width="100%">
+  <img alt="GoBeyond-mobile" src="src/assets/images/desktop-mobile.png" width="100%">
 </p>
 <br>
 
