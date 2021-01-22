@@ -1,0 +1,73 @@
+.banner{
+    background-image: url(../../assets/images/banner-desktop.png);
+    height:191.2px;
+    background-repeat:no-repeat;
+    background-size: 100vw;
+    color:#fff;
+    background-color: rgba(0, 0, 0, 0.55);
+    background-blend-mode: multiply;
+    position: relative;
+}
+.banner-background h3{
+    padding-top:32px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+   padding-left: 20px;
+}
+.banner-background h2{
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 30px;  
+    padding-left: 20px;
+    width: 20em;
+}
+
+/* ---------------------Mobile--------------------------- */
+
+
+@media (min-width: 1024px) {
+    .banner{
+        height: 430px;  
+        background-image: url(../../assets/images/banner-desktop.png);
+        background-position: right;
+        background-color:rgba(0, 0, 0, 0.00);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .banner-background{
+        display: block;
+        background-image: url(../../assets/images/black-banner.png);
+        background-size: contain;
+        height:100%;
+        width:55%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    .banner h3{
+        font-family: Nunito;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 41px;
+        color: #FFFFFF;
+        align-items: center;
+        padding-top:154px ;
+        padding-left: 380px;
+       
+    }
+    .banner h2{
+        font-family: Nunito;
+        font-weight: 900;
+        font-size: 45px;
+        line-height: 45px;
+        padding-left: 380px;
+        align-items:center;
+        color: #FFFFFF;
+
+    }
+    .banner-text{
+        max-width:970px;
+        margin: 0;
+    }
+}

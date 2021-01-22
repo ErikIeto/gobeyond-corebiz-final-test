@@ -1,0 +1,135 @@
+.address{
+    background: #000000;
+    color: #fff;
+}
+
+.address h3{
+    padding:27px 0px 0px 17px;
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.address h5{
+    padding-left:17px;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+.addres span{
+    display: flex; 
+    margin:16px 0px 20px 17px;
+    width: 32px;
+    height:4px;   
+    background: #fff;   
+}
+
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+   
+}
+
+.buttons button{
+    display: flex;
+    align-items: center;
+    width: 195px;
+    min-height: 38px;
+    border-radius: 5px;
+    margin-top:25px ;
+    background: #FFFFFF;
+    
+}
+.buttons button img{
+    padding:12px 19px 12px 16px;
+}
+
+.buttons button h4{
+    color: #000000;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.info h4{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+}
+.info p{
+    font-size: 10px;
+    line-height: 14px 
+
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    padding:24px 48px 10px 48px ;
+}
+
+.corebiz img{
+    width: 78px;
+    height: 18px;
+    
+}
+
+.vtex img{
+    width: 48px;
+    height: auto;
+}
+
+/* ---------------------Mobile--------------------------- */
+
+
+@media (min-width: 1024px){
+    
+    .container-address{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+
+        width: 970px;
+        height: 213px;
+        
+        margin-right:auto;
+        margin-left:auto;
+    }
+
+    .address span{
+        display: flex; 
+        margin:16px 0px 20px 17px;
+        width: 65px;
+        height:5px;   
+        background: #fff;   
+    }
+
+    .buttons {
+    padding-top: 56px;
+    }
+
+    .address h3{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 25px;
+        padding:27px 0px 0px 17px;
+    }
+
+    .corebiz{
+     margin: auto;
+    }
+    .vtex {
+        margin:auto;
+        margin-left:30px
+    }
+}

@@ -1,0 +1,139 @@
+.shelf
+{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 0 75px 0;
+}
+
+.container 
+{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    padding: 16px 0;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+h2 
+{
+    font-weight: 900;
+    font-size: 20px;
+}
+
+h2::after
+{
+    content: "";
+    display: block;
+    height: 5px;
+    width: 50%;
+    margin-top: 5px;
+    background-color: #C0C0C0;
+}
+
+.products
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 25px 0;
+}
+
+.product
+{
+    height: 300px;
+    width: 216px;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    color: #7A7A7A;
+    border-radius: 5px;
+    position: relative;
+}
+
+.productDiscountFlag
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-left: 0;
+    border-top: 75px solid #F8475F;
+    border-left: 75px solid transparent;
+    border-bottom: 75px solid transparent;
+}
+
+.productDiscountFlag::after
+{
+    content: "OFF";
+    position: absolute;
+    top: -60px;
+    right: 8px;
+    font-size: 16px;
+    font-weight: 900;
+    color: #fff;
+}
+.productBody
+{
+    padding-top: 10px;
+}
+
+.product:hover > .productBody
+{
+    background-color: #E6E8EA;
+    transition: 250ms ease-in;
+}
+
+.product:hover .productButton
+{
+    opacity: 1;
+    transition: 500ms ease-in;
+}
+
+.productName
+{
+    margin-bottom: 2px;
+    font-weight: 600;
+}
+
+.listedPrice
+{
+    height: 15px;
+    margin: .25em 0;
+    text-decoration: line-through;
+}
+
+.price
+{
+    font-size: 18px;
+    font-weight: 700;
+    margin: .25em 0;
+    color: #000;
+}
+
+.productButton
+{
+    opacity: 0;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 10px 0;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+@media(max-width:600px){
+    .products {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .total-area {
+        flex-direction: column;
+    }
+    .banner-background h2 {
+        width: 100%;
+    }
+}
