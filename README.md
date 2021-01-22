@@ -60,7 +60,7 @@ Esse projeto é um teste front-end da Corebiz.
 
 ## Observação
 
-Durante a criação do projeto ficou faltando a parte dos slides na página inicial, o<strong>React Responsive Carousel</strong>. Será necessário acrescentar este componente.
+Durante a criação do projeto ficou faltando a parte dos slides na página inicial, o <strong>React Responsive Carousel</strong>. Será necessário acrescentar este componente.
 
 ---
 
