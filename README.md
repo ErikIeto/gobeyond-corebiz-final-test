@@ -34,8 +34,7 @@ Esse projeto é um teste front-end da Corebiz.
   * Abrir http://localhost:3000 para visualizar no browser;
   * A página irá recarregar de acordo com as edições;
   * É possivél ver qualquer erro de lint no console;
-  
-- Projeto responsavél pela <a href="https://www.corebiz.ag/en/" target="_blank">Corebiz</a>, desenvolvido no dia 20/01/2021 na edição do <a href="https://conteudo.corebiz.ag/gobeyond" target="_blank">GoBeyond</a>. **[@Claudio M. Borges]**.
+- Projeto responsavél pela <a href="https://www.corebiz.ag/en/" target="_blank">Corebiz</a>, desenvolvido no dia 20/01/2021 na edição do <a href="https://conteudo.corebiz.ag/gobeyond" target="_blank">GoBeyond</a>. **@Claudio M. Borges**.
 
 
  
